@@ -6,23 +6,17 @@ import evangelion from '../../images/evangelion.jpg'
 import oversized from '../../images/oversized.jpg'
 import relatable from '../../images/relatable.jpg'
 import underwood from '../../images/underwood.jpg'
-import cat from '../../images/cat.gif'
-import dealbreaker from '../../images/deal-breaker.jpg'
-import doodles from '../../images/Doodles.gif'
-import gif_trunkz_ from '../../images/Gif_Trunkz_.gif'
 import giyu from '../../images/giyu.jpg'
 import giyu2 from '../../images/giyu2.jpg'
 import heatwave from '../../images/Heatwave.PNG'
 import icyhot from '../../images/icy-hot.jpg'
 import order from '../../images/order.jpg'
-import self from '../../images/self.jpg'
 import skullface from '../../images/skullface.PNG'
 import sneak from '../../images/sneak.jpg'
-import sokka from '../../images/sokka.jpg'
-import spacepup from '../../images/space-pup.jpg'
 import CloseIcon from '@mui/icons-material/Close'
-
-
+import bakugo from "../../images/bakugo.jpg"
+import kakashi from "../../images/kakashi.jpg"
+import korrasami from "../../images/korrasami.jpg"
 const Herocard = () => {
   let data=[
       {
@@ -53,16 +47,6 @@ const Herocard = () => {
       {
         id: 6,
         imgSrc:underwood,
-        text:"test"
-      },
-      {
-        id: 8,
-        imgSrc:dealbreaker,
-        text:"test"
-      },
-      {
-        id: 10,
-        imgSrc:gif_trunkz_,
         text:"test"
       },
       {
@@ -102,9 +86,18 @@ const Herocard = () => {
       },
       {
         id: 19,
-        imgSrc:sokka,
+        imgSrc:korrasami,
+        text:"test"
+      },{
+        id: 20,
+        imgSrc:kakashi,
+        text:"test"
+      },{
+        id: 21,
+        imgSrc:bakugo,
         text:"test"
       },
+ 
   ]
   
   const [model, setModel] = useState(false);

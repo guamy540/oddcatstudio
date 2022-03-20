@@ -75,5 +75,13 @@
       right: 2rem;
       z-index: 4;
     }
-  
+
+.mobile-menu-icon{
+  background-color: #df9e5e;
+  border-radius: .2rem;
+}
+
+.orangeincolor{
+  color: #cc7a4a;
+}
   

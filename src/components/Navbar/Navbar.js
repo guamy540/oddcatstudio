@@ -5,8 +5,9 @@ import cart from "../../images/shopping-cart.png"
 import {useNavigate} from "react-router-dom"
 import biglogo from "../Herocard/HeroTopImage.js"
 import HeroTopImage from "../Herocard/HeroTopImage.js";
+import oclogo from "../../images/oclogo.gif"
 
-/*<img src = {logo} className="navLogo" alt = "oddcatstudios"
+/*<img src = {oclogo} className="navLogo" alt = "oddcatstudios"
                onClick={()=>{navigate("/");}}
                />*/
 
@@ -17,7 +18,8 @@ const Navbar = () => {
 
     return(
         <nav className="navbar">
-           
+           <img src = {oclogo} className="navLogo" alt = "oddcatstudios"
+               onClick={()=>{navigate("/");}}/>
             <ul className={isMobile ? "nav-links-mobile" : "navLinks"}
             onClick={() => setIsMobile(false)}>
             
@@ -35,7 +37,7 @@ const Navbar = () => {
             </ul>
             <button className="mobile-menu-icon"
             onClick={()=>setIsMobile(!isMobile)}>
-                {isMobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
+                {isMobile ? <i className="fas fa-times orangeincolor"></i> : <i className="fas fa-bars orangeincolor"></i>}
             </button>
         </nav>
     )

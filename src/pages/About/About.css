@@ -61,8 +61,13 @@
     }
 
     .aboutInfo{
-        margin-left:3rem;
-        margin-right: 3rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px black;
+        padding: 1rem;
     }
 
     .BWTheo{

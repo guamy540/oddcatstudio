@@ -8,13 +8,16 @@ import CloseIcon from '@mui/icons-material/Close'
 import cat2 from "../../images/cat2.gif"
 import current_ from "../../images/Current_.gif"
 import gif1 from "../../images/gif1.gif"
+import dealbreaker from '../../images/deal-breaker.jpg'
+import gif_trunkz_ from '../../images/Gif_Trunkz_.gif'
+import sokka from '../../images/sokka.jpg'
 
 
 const Herocard = () => {
   let data=[
       {
         id: 1,
-        imgSrc:cat,
+        imgSrc:spacepup,
         text:"test"
       },
       {
@@ -29,7 +32,7 @@ const Herocard = () => {
       },
       {
         id: 4,
-        imgSrc:spacepup,
+        imgSrc:cat,
         text:"test"
       },
       {
@@ -45,6 +48,21 @@ const Herocard = () => {
       {
         id: 7,
         imgSrc:gif1,
+        text:"test"
+      },
+      {
+        id: 8,
+        imgSrc:dealbreaker,
+        text:"test"
+      },
+      {
+        id: 10,
+        imgSrc:gif_trunkz_,
+        text:"test"
+      },     
+      {
+        id: 19,
+        imgSrc:sokka,
         text:"test"
       },
   ]
