@@ -1,0 +1,27 @@
+.heroPageContainer h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.backToTopButtonContainer{
+    display: grid;
+    justify-content: center;
+}
+
+.heroPageContainer button{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:black;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:1rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+  .heroPageContainer button:hover { background:#272222; }

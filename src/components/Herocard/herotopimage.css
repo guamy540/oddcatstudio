@@ -1,0 +1,8 @@
+
+.big-logo{
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80vw;
+    max-height: 100vh;
+}

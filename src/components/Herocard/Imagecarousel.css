@@ -1,0 +1,11 @@
+.slideshow-images{
+   text-align: center;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   margin:auto;
+   padding-bottom: 4rem;
+   padding-top: 1rem;
+   max-height: 100vh;
+   max-width: 78%;
+}

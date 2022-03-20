@@ -1,13 +1,62 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./images/background.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+li{
+  list-style-type: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Courier New',monospace;
+}
+
+/*-----About page styling--------*/
+.bWTheo{
+  max-width: 20rem;
+}
+
+.colorTheo{
+  max-width: 20rem;
+}
+
+/*------Footer component styling-------*/
+/*------Shop page styling-----------*/
+.shopCardList{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-top: 6rem;
+}
+
+
+
+.shopCardImage{
+  transition: all .4s ease-in-out;
+  max-width: 20rem;
+  border-radius: 1rem;
+}
+
+.shopCardImage:hover{
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+
+.shopCardTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0rem;
+  font-weight: bold;
+}
+.shopCardPrice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  font-weight: bold;
 }

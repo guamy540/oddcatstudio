@@ -1,0 +1,79 @@
+.navbar{
+    min-height: 0rem;
+    width:100%;
+  }
+  
+  .navLogo{
+    position:fixed;
+    top:.5rem;
+    left:.5rem;
+    max-width: 6rem;
+    cursor: pointer;
+  }
+
+    .navLinks{
+      display:none;
+      transform: 1s ease-out;
+    }
+  
+    .nav-links-mobile{
+      z-index: 1;
+      cursor: pointer;
+      position: fixed;
+      text-align: center;
+      display: grid;
+      list-style: none;
+      background-color: black;
+      left: 0;
+      top: -1rem;
+      padding: 0;
+      width: 100%;
+      transform: 1s ease-out;
+    }
+  
+    .navHome:hover,
+    .navShop:hover,
+    .navContact:hover,
+    .navAbout:hover,
+    .navToS:hover{
+      font-weight: bold;
+    }
+
+    .navHome,
+    .navShop,
+    .navContact,
+    .navAbout,
+    .navToS{
+      text-align: center;
+      color: whitesmoke;
+      text-align: center;            
+      width: 100%; 
+    }
+
+    .navHome,
+    .navShop,
+    .navAbout,
+    .navToS{
+      padding-top: 2rem;
+    }
+    
+    .navContact{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    
+
+    .mobile-menu-icon{
+      display: block;
+      position:fixed;
+      background-color: none;
+      font-size: 2rem;
+      border: none;
+      outline: none;
+      top: 1.1rem;
+      right: 2rem;
+      z-index: 4;
+    }
+  
+  

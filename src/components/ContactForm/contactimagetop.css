@@ -1,0 +1,97 @@
+.containerContactImageTop img{
+    border-radius: 1rem;
+}
+
+.containerContactImageTop button{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background:black;
+    border-radius: .3rem;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:1.3rem;
+    padding: .8rem;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+.containerContactImageTop button:hover{
+    background:#272222 ;
+}
+
+.contactSkipButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.c1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    max-width: 80vw;
+    max-height: 80vh;
+    margin-bottom: 2rem;
+}
+
+.containerContactSmall{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
+    grid-gap: 1rem;
+}
+
+
+
+.c2,
+.c3,
+.c4,
+.c5{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1rem;
+    max-width: 40vw;
+}
+
+.c2,
+.c4{
+    margin-left: auto;
+}
+
+.c3,
+.c5{
+    margin-right: auto;
+}
+
+@media(max-width:850px){
+    .c1{
+        margin-top: 7rem;
+        max-height: 70vh;
+    }
+}
+
+@media(max-width:480px){
+
+    .containerContactSmall{
+        display:block;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c1{
+        margin-bottom: 2rem;
+    }
+
+    .c2,
+    .c3,
+    .c4,
+    .c5{
+        display: block;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70vw;
+    }
+
+}

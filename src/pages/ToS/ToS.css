@@ -1,0 +1,100 @@
+.commissionProjects{
+    margin-top: 7rem;
+    padding:1rem;
+}
+
+
+
+
+
+.commissionProjects h2{
+    text-align: center;
+}
+
+.commissionProjects li{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.commissionProcess{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+.commissionProcess h2{
+    text-align: center;
+}
+
+.commissionToS h2{
+    text-align: center;
+}
+
+.commissionToS{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+@media(max-width: 480px){
+    .commissionProjects{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    .commissionProjects li{
+        text-align: left;
+        list-style: disc;
+
+    }
+}
+
+.commissionProjectsButtonContainer{
+    display: grid;
+    justify-content: center;
+}
+
+.commissionProjectsButton{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:black;
+    border-radius: .3rem;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:1.3rem;
+    padding: .8rem;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+.commissionProjectsButton:hover{
+    background:#272222 ;
+}
+
+.commissionProcess{
+    padding: 1rem;
+}   
+
+.commissionProcess li{
+    list-style-type: disc;
+}
+
+.commissionToS{
+    padding: 1rem;
+}
+
+.commissionToS li{
+    list-style-type: disc;
+}
