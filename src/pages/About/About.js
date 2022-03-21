@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css'
-import BWTheo from "../../images/bwtheo.JPG"
+import BWTheo from "../../images/theo.jpg"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer"
 import { useNavigate } from "react-router-dom";
