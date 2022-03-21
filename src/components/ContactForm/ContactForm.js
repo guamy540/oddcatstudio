@@ -7,7 +7,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { useState } from 'react'
 
 const ContactForm = () => {
-   const recaptchaKey = '6LfDz_geAAAAACXsK16o804di0ygQzVNcJ3y-Soq';
+   const recaptchaKey = '6LfDz_geAAAAABsSRzyoOJyd5HZAyXD935_L3uyE';
 
     function sendEmail(e){
         if (!isVerified){e.preventDefault();
