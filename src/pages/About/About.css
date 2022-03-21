@@ -51,6 +51,7 @@
 .BWTheo{
     max-width: 29vw;
     max-height: 25rem;
+    border-radius: 1rem;
 }
 
 @media(max-width:700px){
