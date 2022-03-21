@@ -17,6 +17,8 @@ import CloseIcon from '@mui/icons-material/Close'
 import bakugo from "../../images/bakugo.jpg"
 import kakashi from "../../images/kakashi.jpg"
 import korrasami from "../../images/korrasami.jpg"
+
+
 const Herocard = () => {
   let data=[
       {
