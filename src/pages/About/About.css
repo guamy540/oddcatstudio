@@ -1,4 +1,6 @@
-
+.aboutPageViewHeightContainer{
+    min-height: 100vh;
+}
 
 .aboutPageContainerColumns{
     box-sizing: border-box;

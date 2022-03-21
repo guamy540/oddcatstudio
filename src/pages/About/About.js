@@ -12,7 +12,7 @@ export default function About(){
     return(
         <div className="aboutPage">
         <Navbar/>
-
+        <div className="aboutPageViewHeightContainer">
         <div className="aboutPageContainer">
 
         <div className="aboutPageContainerColumns">
@@ -59,7 +59,7 @@ export default function About(){
         </div>
 
         </div>
-
+        </div>
         </div>
         <Footer/>
         </div>
