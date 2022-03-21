@@ -1,7 +1,17 @@
 .shopPageContainer{
     margin-top: 7rem;
 }
-
+@media(max-width:1300px){
+.shopPageTextContainer{
+    padding:1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+}
 .shopPageContainer h1{
     text-align: center;
 }

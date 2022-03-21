@@ -20,6 +20,7 @@ const ToS = () => {
                 <li className='commissionLI'>Animated GIFs</li>
                 
             </ul>
+            
             <div className='commissionProjectsButtonContainer'>
             <button className='commissionProjectsButton' 
                 onClick={()=>{navigate("/contact");}}

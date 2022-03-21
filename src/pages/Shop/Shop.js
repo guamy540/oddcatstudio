@@ -29,9 +29,10 @@ export default function Shop(){
                 <p>We are excited to announce our shop is coming on March 31st!</p>
                 <p>While you wait for our limited collection of clothing, prints, and buttons, you can 
                     reach out to Odd Cat Studio for your commission fix!</p> 
-                <div className="shopPageContainerButton">
-                <button onClick={()=>{navigate("/contact");}}>Contact Us!</button>    
                 </div>
+                <div className="shopPageContainerButton">                
+                <button onClick={()=>{navigate("/contact");}}>Contact Us!</button>    
+                
                 </div>
                 
                 <div className="inquiryContainer">
