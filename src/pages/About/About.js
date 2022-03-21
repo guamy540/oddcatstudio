@@ -43,7 +43,7 @@ export default function About(){
         <div className="aboutInfo">
             <p>Theo Hearon is the founder of Odd Cat Studio and is an illustrator, graphic artist, and 
                 designer. They specialize in illustration, digital art, and chalk art, as well as 
-                customized clothing and commissions.</p>
+                customized clothing.</p>
             <p>Theo takes inspiration from the natural world, Western and Japanese animation, and streetwear. 
                 They are known for their character design, lettering, and custom clothing. </p>
             <p>They were recognized for their work by Masashi Kishimoto, Young Trunkz, and We Love Fine.</p>
@@ -51,7 +51,7 @@ export default function About(){
                 local businesses, and major artists.Some of these clients include Color Pop Tulsa, 
                 Tokyo in Tulsa, and Carrie Underwood.</p>
             <p>For inquiries, requests, or other questions you can send an email to theodorehearon@gmail.com 
-               or DM Theo at their Instagram, Tik-Tok, or Instagram.</p>
+               or DM Theo at their Instagram or Tik-Tok.</p>
         </div>
 
         <div className="aboutImageContainer">
