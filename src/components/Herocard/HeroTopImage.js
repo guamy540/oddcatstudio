@@ -6,7 +6,6 @@ import './herotopimage.css'
 const HeroTopImage = () => {
   return (
     <div className='container-big-logo'>
-      
       <img src={logo} className='big-logo' alt="logo"/>
     </div>
   )
