@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import shopData from "../../shopdata";
 import Shopcard from "../../components/Shopcard";
 import './Shop.css'
-import inquiryGif from '../../images/HeroCarousel/C6.gif'
+import inquiryGif from '../../images/HeroCarousel/c6.webp'
 import { useNavigate } from "react-router-dom";
 
 export default function Shop(){

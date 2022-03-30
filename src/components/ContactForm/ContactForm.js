@@ -2,18 +2,44 @@ import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import './contactform.css'
 import Topimage from './Contactimagetop'
-import C6 from "../../images/HeroCarousel/C6.gif"
+import C6 from "../../images/HeroCarousel/c6.webp"
 import ReCAPTCHA from 'react-google-recaptcha'
 import { useState } from 'react'
 
 const ContactForm = () => {
    const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
 
-    function sendEmail(e){
-        if (!isVerified){e.preventDefault();
-            alert('Please verify that you are a human.')
+    function checkForm(){
+        var empt = document.forms["form"]["name"].value;
+        if (empt == ""){
+            return false;
         }
-        else{
+        empt = document.forms["form"]["user_email"].value;
+        if (empt ==""){
+            return false;
+        }
+        var empt = document.forms["form"]["message"].value;
+        if (empt == ""){
+            return false;
+        }
+        return true;
+    }
+   
+    function sendEmail(e){
+        var formFilled = true;
+        formFilled = checkForm();
+
+        if (!formFilled){
+            alert("Please fill the entire form.");
+            e.preventDefault();
+        }
+
+        if (!isVerified){
+            alert('Please verify that you are a human.');
+            e.preventDefault();
+        }
+
+        if(isVerified && formFilled){
             e.preventDefault();
             emailjs.sendForm(
                 'service_4ahsf2q', 
@@ -23,12 +49,14 @@ const ContactForm = () => {
                 ).then(res=>{
                     console.log(res)
                 }).catch(err=>console.log(err));
-                alert('Thanks for reaching out! We will be in contact with you shortly.')
-                setTimeout(function () {window.location.reload();}, 10)
+                alert('Thanks for reaching out! We will be in contact with you shortly.');
+                window.location.reload();
         }
+        e.preventDefault();
     }
 
     const[isVerified, setVerified] = useState(false);
+
 
     function verifyCallback(e){
         setVerified(true)
@@ -43,7 +71,7 @@ const ContactForm = () => {
             </div>
          <div className='contactTextContainer'>
           <h1 className='contactHeader'>Contact Us</h1>
-          <form className='contactRow' onSubmit={sendEmail}>
+          <form name="form" className='contactRow' onSubmit={sendEmail}>
 
               <label>Name</label>
               <input type="text" name="name" className="form-control"/>

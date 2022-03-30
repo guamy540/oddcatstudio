@@ -1,9 +1,9 @@
 import React from 'react'
-import C1 from "../../images/HeroCarousel/C1.gif"
-import C2 from "../../images/HeroCarousel/C2.gif"
-import C3 from "../../images/HeroCarousel/C3.gif"
-import C4 from "../../images/HeroCarousel/C4.gif"
-import C5 from "../../images/HeroCarousel/C5.gif"
+import C1 from "../../images/HeroCarousel/c1.webp"
+import C2 from "../../images/HeroCarousel/c2.webp"
+import C3 from "../../images/HeroCarousel/c3.webp"
+import C4 from "../../images/HeroCarousel/c4.webp"
+import C5 from "../../images/HeroCarousel/c5.webp"
 import './contactimagetop.css'
 
 const Contactimagetop = () => {

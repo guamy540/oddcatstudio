@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li className="navContact" onClick={()=>{navigate("/contact");}}>
                     Contact</li>
             </ul>
-            <button className="mobile-menu-icon"
+            <button className="mobile-menu-icon" aria-label="Menu button"
             onClick={()=>setIsMobile(!isMobile)}>
                 {isMobile ? <i className="fas fa-times orangeincolor"></i> : <i className="fas fa-bars orangeincolor"></i>}
             </button>

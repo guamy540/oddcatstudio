@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../images/Booya_.gif"
+import logo from "../../images/webp/booya.webp"
 import logotest from "../../images/HeroCarousel/C1.gif"
 import './herotopimage.css'
 
