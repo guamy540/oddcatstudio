@@ -31,7 +31,7 @@ export default function About(){
             <br></br>
             <p>Founder of Odd Cat Studio</p>
             <br></br>
-            <p> Shop coming March 31st!
+            <p> Shop coming soon!
             </p>
             <br></br>
             <p>Custom clothing commissions available upon request</p>

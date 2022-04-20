@@ -26,7 +26,7 @@ export default function Shop(){
             <div className="shopPageContainer">
                 <div className="shopPageTextContainer">
                 <h1>Shop coming soon!</h1>
-                <p>We are excited to announce our shop is coming on March 31st!</p>
+                <p>We are excited to announce our shop is coming soon!</p>
                 <p>While you wait for our limited collection of clothing, prints, and buttons, you can 
                     reach out to Odd Cat Studio for your commission fix!</p> 
                 </div>
