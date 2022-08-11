@@ -18,16 +18,16 @@ const Contactimagetop = () => {
   return (
     <div className='containerContactImageTop'>
       <div>
-      <img src={C1} className='c1'/>
+      <img src={C1} className='c1'loading="lazy"/>
       </div>
       <div className='contactSkipButtonContainer'>
         <button onClick={scrollToBottom}>Click here to skip to contact!</button>
       </div>
       <div className='containerContactSmall'>
-        <img src={C2} className='c2'/>
-        <img src={C3} className='c3'/>
-        <img src={C4} className='c4'/>
-        <img src={C5} className='c5'/>      
+        <img src={C2} className='c2' loading="lazy"/>
+        <img src={C3} className='c3' loading="lazy"/>
+        <img src={C4} className='c4' loading="lazy"/>
+        <img src={C5} className='c5' loading="lazy"/>      
       </div>
     </div>
   )

@@ -113,7 +113,10 @@ const Herocard = () => {
                   key={index} onClick={()=>
                       getImg(item.imgBig)
                   }>
-                      <img src={item.imgSrc} style={{width:'100%', borderRadius:'.3rem',}} alt={item.text}/>
+                      <img src={item.imgSrc} 
+                      style={{width:'100%', borderRadius:'.3rem',}} 
+                      alt={item.text}
+                      loading="lazy"/>
                   
                   </div>
                 </div>
