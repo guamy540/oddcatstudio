@@ -6,7 +6,7 @@ import Shop from "./pages/Shop/Shop";
 import Contact from "./pages/Contact"
 import ToS from './pages/ToS/ToS';
 
-/*window.addEventListener("contextmenu", e => e.preventDefault());*/
+/*test*/
 
 function App() {
 
