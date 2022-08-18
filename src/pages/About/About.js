@@ -48,8 +48,8 @@ export default function About(){
                 They are known for their character design, lettering, and custom clothing. </p>
             <p>They were recognized for their work by Masashi Kishimoto, Young Trunkz, and We Love Fine.</p>
             <p>They have done work for clients both large and small, from private commissions, 
-                local businesses, and major artists.Some of these clients include Color Pop Tulsa, 
-                Tokyo in Tulsa, and Carrie Underwood.</p>
+                local businesses, and major artists.Some of these clients include Carrie Underwood, YoungxHalloween, 
+                and Tokyo in Tulsa.</p>
             <p>For inquiries, requests, or other questions you can send an email to theodorehearon@gmail.com 
                or DM Theo at their Instagram or Tik-Tok.</p>
         </div>
