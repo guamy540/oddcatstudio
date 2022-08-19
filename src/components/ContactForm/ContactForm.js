@@ -34,12 +34,8 @@ const ContactForm = () => {
             e.preventDefault();
         }
 
-        if (!isVerified){
-            alert('Please verify that you are a human.');
-            e.preventDefault();
-        }
 
-        if(isVerified && formFilled){
+        if(formFilled){
             e.preventDefault();
             emailjs.sendForm(
                 'service_4ahsf2q', 
@@ -81,11 +77,6 @@ const ContactForm = () => {
 
               <label>Message</label>
               <textarea name='message' rows='4' className="form-control"/>
-
-              <ReCAPTCHA
-                sitekey={recaptchaKey}
-                onChange={verifyCallback}
-              />
 
               <input type='submit' value='Send' className="form-control btn btn-primary"/>
           </form>
